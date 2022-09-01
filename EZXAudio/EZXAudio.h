@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <EZXAudio/EZAudio.h>
 
 //! Project version number for EZXAudio.
 FOUNDATION_EXPORT double EZXAudioVersionNumber;

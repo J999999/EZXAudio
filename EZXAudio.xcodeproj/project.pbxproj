@@ -11,7 +11,7 @@
 		7A634C0E28BF7CE500F6DEFF /* EZXAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A634C0328BF7CE500F6DEFF /* EZXAudio.framework */; };
 		7A634C1328BF7CE500F6DEFF /* EZXAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A634C1228BF7CE500F6DEFF /* EZXAudioTests.m */; };
 		7A634C1428BF7CE500F6DEFF /* EZXAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A634C0628BF7CE500F6DEFF /* EZXAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A634C3F28BF7D9A00F6DEFF /* EZAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A634C1D28BF7D9900F6DEFF /* EZAudio.h */; };
+		7A634C3F28BF7D9A00F6DEFF /* EZAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A634C1D28BF7D9900F6DEFF /* EZAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A634C4028BF7D9A00F6DEFF /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A634C1E28BF7D9900F6DEFF /* EZRecorder.m */; };
 		7A634C4128BF7D9A00F6DEFF /* EZOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A634C1F28BF7D9900F6DEFF /* EZOutput.h */; };
 		7A634C4228BF7D9A00F6DEFF /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A634C2028BF7D9900F6DEFF /* EZAudioPlotGL.m */; };
@@ -195,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A634C5128BF7D9A00F6DEFF /* EZAudioPlotGL.h in Headers */,
+				7A634C3F28BF7D9A00F6DEFF /* EZAudio.h in Headers */,
 				7A634C5028BF7D9A00F6DEFF /* EZAudioPlot.h in Headers */,
 				7A634C4728BF7D9A00F6DEFF /* EZAudioiOS.h in Headers */,
 				7A634C4128BF7D9A00F6DEFF /* EZOutput.h in Headers */,
@@ -204,7 +205,6 @@
 				7A634C4C28BF7D9A00F6DEFF /* EZAudioFile.h in Headers */,
 				7A634C4D28BF7D9A00F6DEFF /* EZAudioDevice.h in Headers */,
 				7A634C5328BF7D9A00F6DEFF /* EZMicrophone.h in Headers */,
-				7A634C3F28BF7D9A00F6DEFF /* EZAudio.h in Headers */,
 				7A634C5A28BF7D9A00F6DEFF /* EZAudioFloatConverter.h in Headers */,
 				7A634C1428BF7CE500F6DEFF /* EZXAudio.h in Headers */,
 				7A634C4328BF7D9A00F6DEFF /* EZAudioPlayer.h in Headers */,
