@@ -287,13 +287,13 @@ BOOL __shouldExitOnCheckResultFail = YES;
 + (AudioStreamBasicDescription)stereoFloatInterleavedFormatWithSampleRate:(float)sampleRate
 {
     AudioStreamBasicDescription asbd;
-    UInt32 floatByteSize   = sizeof(float);
-    asbd.mChannelsPerFrame = 2;
-    asbd.mBitsPerChannel   = 8 * floatByteSize;
+    UInt16 floatByteSize   = sizeof(float);
+    asbd.mChannelsPerFrame = 1;
+    asbd.mBitsPerChannel   = 16;
     asbd.mBytesPerFrame    = asbd.mChannelsPerFrame * floatByteSize;
     asbd.mFramesPerPacket  = 1;
     asbd.mBytesPerPacket   = asbd.mFramesPerPacket * asbd.mBytesPerFrame;
-    asbd.mFormatFlags      = kAudioFormatFlagIsFloat;
+    asbd.mFormatFlags      = kAudioFormatFlagIsPacked | kAudioFormatFlagIsSignedInteger;;
     asbd.mFormatID         = kAudioFormatLinearPCM;
     asbd.mSampleRate       = sampleRate;
     asbd.mReserved         = 0;
